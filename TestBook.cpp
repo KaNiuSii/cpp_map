@@ -12,7 +12,7 @@ int main() {
     Library library;
     addBooks(library);
 
-    std::cout << "Baza danych książek:" << std::endl << library << std::endl;
+    std::cout << "Books Library: " << std::endl << library << std::endl;
 
     return 0;
 }

@@ -12,9 +12,9 @@ public:
     Book(std::string a, std::string c, int p, std::string s) : author(a), category(c), pageCount(p), status(s) {}
 
     friend std::ostream& operator<<(std::ostream& os, const Book& book) {
-        os << "Autor: " << book.author
-           << ", Kategoria: " << book.category
-           << ", Strony: " << book.pageCount
+        os << "Author: " << book.author
+           << ", Category: " << book.category
+           << ", Pages: " << book.pageCount
            << ", Status: " << book.status;
         return os;
     }
